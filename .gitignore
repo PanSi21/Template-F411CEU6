@@ -1,0 +1,25 @@
+# Build artifacts
+build/
+cmake-build-*/
+*.map
+*.elf
+*.hex
+*.bin
+*.su
+
+# Generated files
+compile_commands.json
+
+# STM32CubeMX internal
+.mxproject
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
